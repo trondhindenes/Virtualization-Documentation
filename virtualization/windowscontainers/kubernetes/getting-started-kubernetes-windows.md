@@ -47,7 +47,7 @@ There are multiple ways to make the virtual [cluster subnet](#cluster-subnet-def
 
   - Configure [host-gateway mode](./configuring-host-gateway-mode.md), setting static next-hop routes between nodes to enable pod-to-pod communication.
   - Configure a smart top-of-rack (ToR) switch to route the subnet.
-  - Use a 3rd-party overlay plugin such as [Flannel](https://coreos.com/flannel/docs/latest/kubernetes.html) (Windows support for Flannel is in beta).
+  - Use a 3rd-party overlay plugin such as [Flannel](https://coreos.com/flannel/docs/latest/kubernetes.html) (Windows support for Flannel is in development).
 
 
 ## Preparing the Linux Master ##
